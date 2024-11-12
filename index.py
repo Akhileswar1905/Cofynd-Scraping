@@ -78,3 +78,5 @@ with open(f"scraped_data{uuid.uuid4()}.csv", "w", encoding="utf-8") as file:
 
                 # Increment page number for the next iteration
                 page_number += 1
+        else:
+            continue
